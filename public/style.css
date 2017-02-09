@@ -153,6 +153,11 @@ img {
   top: 300px;
   left: 50%;
   z-index: 2;
+  cursor: pointer;
+  transition: 200ms;
+}
+.watch-video:hover {
+  background: rgb(255, 79, 124);
 }
 .watch-video .text {
   position: relative;
@@ -300,4 +305,73 @@ a {
   color: #00b8e8;
   text-decoration: none;
   margin: 5px 10px;
+}
+
+.video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+  background: rgba(0,0,0,.5);
+  display: none;
+  opacity: 0;
+}
+
+.video iframe {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: 10;
+}
+
+.video .close {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 10;
+  background: rgba(255,255,255,.2);
+  cursor: pointer;
+  transition: 200ms;
+}
+
+.video .close:hover {
+  background: rgba(255,255,255,0);
+  transform: rotate(90deg);
+}
+
+.close:before, .close:after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background: #fff;
+  position: relative;
+  top: 50%;
+  display: block;
+  transform: rotate(45deg);
+}
+
+.close:after {
+  transform: translateY(-100%) rotate(135deg);
+}
+
+.buy-now {
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  background: #000;
+  color: #fff;
+  border-radius: 200px;
+  bottom: 40px;
+  right: 40px;
+}
+
+.buy-now:after {
+  content: "Buy Now";
+  position: absolute;
+  
 }
