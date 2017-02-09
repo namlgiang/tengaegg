@@ -91,4 +91,118 @@ img {
 .inside-description {
   text-align: center;
   padding: 50px;
+  color: #00b8e8;
+}
+
+.how-to-use {
+  width: 800px;
+  height: 600px;
+  max-width: 100%;
+  position: relative;
+  margin: 0 auto;
+}
+
+.use-image {
+  position: absolute;
+  background: url(pics/preview-1.jpg) center no-repeat;
+  background-size: contain;
+  border: 2px solid #29c6ef;
+  width: 400px;
+  height: 400px;
+  border-radius: 1000px;
+  top: 0;
+  left: 50px;
+}
+
+.use-circle {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border-radius: 1000px;
+  background: #29c6ef;
+  color: #fff;
+  text-align: center;
+  right: 70px;
+  top: 100px;
+  z-index: 1;
+}
+
+.use-title {
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.use-desc {
+  position: absolute;
+  top: 80px;
+  width: 200px;
+  font-size: 13px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.watch-video {
+  width: 100px;
+  height: 100px;
+  border-radius: 200px;
+  background: #ff4f4f;
+  color: #fff;
+  position: absolute;
+  top: 300px;
+  left: 50%;
+  z-index: 2;
+}
+.watch-video .text {
+  position: relative;
+  top: 33px;
+  text-align: center;
+}
+
+.material {
+  width: 300px;
+  height: 300px;
+  border-radius: 1000px;
+  background: #777;
+  color: #fff;
+  position: absolute;
+  top: 400px;
+  text-align: center;
+}
+
+.material-title {
+  margin-top: 80px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.material-desc {
+  font-size: 13px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.safe {
+  width: 400px;
+  height: 400px;
+  border-radius: 1000px;
+  background: #7dcc2e;
+  color: #fff;
+  position: absolute;
+  top: 450px;
+  right: 50px;
+  text-align: center;
+}
+
+.safe-title {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.safe-desc {
+  font-size: 14px;
+  width: 70%;
+  margin: 0 auto;
 }
