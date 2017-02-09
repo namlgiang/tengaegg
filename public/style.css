@@ -272,6 +272,10 @@ img {
   width: 400px;
 }
 
+.product-description {
+  font-size: 14px;
+}
+
 .product-title {
   font-size: 25px;
   text-transform: uppercase;
@@ -363,15 +367,31 @@ a {
   position: fixed;
   width: 100px;
   height: 100px;
-  background: #000;
+  background: #d8278d;
   color: #fff;
   border-radius: 200px;
   bottom: 40px;
   right: 40px;
+  cursor: pointer;
 }
 
 .buy-now:after {
   content: "Buy Now";
-  position: absolute;
-  
+  margin-top: 40px;
+  display: block;
+  text-align: center;
+}
+
+.old-price {
+  text-decoration: line-through;
+  font-size: 16px;
+  color: #777
+}
+
+.sub {
+  font-size: 20px;
+  background: #d8278d;
+  color: #fff;
+  display: inline-block;
+  padding: 5px 10px;
 }

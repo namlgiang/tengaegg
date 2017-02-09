@@ -16,4 +16,10 @@ $(document).ready(function() {
       $(".video").css("display", "none");
     });
   });
+
+  $(".buy-now").click(function() {
+    $('html, body').animate({
+      scrollTop: $(".pack-1").offset().top - 150
+    }, 500);
+  });
 });
