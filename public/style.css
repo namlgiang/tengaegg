@@ -96,7 +96,7 @@ img {
 
 .how-to-use {
   width: 800px;
-  height: 600px;
+  height: 900px;
   max-width: 100%;
   position: relative;
   margin: 0 auto;
@@ -205,4 +205,99 @@ img {
   font-size: 14px;
   width: 70%;
   margin: 0 auto;
+}
+
+.pack-1, .pack-2, .lotion {
+  width: 1000px;
+  max-width: 100%;
+  margin: 50px auto;
+  overflow: hidden;
+}
+
+.slide {
+  float: left;
+  margin-right: 50px;
+}
+
+.slide .preview {
+  width: 500px;
+  height: 300px;
+  border: 2px solid #7fe0ff;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.pack-1 .preview {
+  background-image: url("pics/set 1.jpg");
+}
+
+.slide-select {
+  margin-top: 10px;
+}
+
+.slide-select>div {
+  display: inline-block;
+  width: 70px;
+  height: 50px;
+  border: 2px solid #7fe0ff;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.slide-select>div.active {
+  border: 2px solid #00c1ff;
+}
+
+.pack-1 .slide-option-0 {
+  background-image: url("pics/set 1.jpg");
+}
+.pack-1 .slide-option-1 {
+  background-image: url("pics/set 1-1.jpg");
+}
+.pack-1 .slide-option-2 {
+  background-image: url("pics/set 1-2.jpg");
+}
+
+.product-info {
+  float: left;
+  color: #00b8e8;
+  width: 400px;
+}
+
+.product-title {
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.pack-2 .preview {
+  background-image: url("pics/set 2.jpg");
+}
+
+.pack-2 .slide-option-0 {
+  background-image: url("pics/set 2.jpg");
+}
+.pack-2 .slide-option-1 {
+  background-image: url("pics/set 2-1.jpg");
+}
+.pack-2 .slide-option-2 {
+  background-image: url("pics/set 2-2.jpg");
+}
+
+.lotion .preview {
+  background-image: url("pics/lotion.jpg");
+}
+
+.footer {
+  text-align: center;
+  padding: 30px;
+  font-size: 13px;
+}
+
+a {
+  color: #00b8e8;
+  text-decoration: none;
+  margin: 5px 10px;
 }
