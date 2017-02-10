@@ -31,4 +31,11 @@ $(document).ready(function() {
       scrollTop: $(".pack-1").offset().top - 150
     }, 500);
   });
+
+  $("form").submit(function() {
+    // fbq('track', 'InitiateCheckout');
+    ga('send', 'pageview', 'InitiateCheckout');
+    console.log("Track Init Check Out");
+  });
+
 });
