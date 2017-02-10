@@ -9,7 +9,6 @@ body {
   max-width: 100%;
   margin: 0 auto;
   position: relative;
-  overflow: hidden;
   max-width: 100%;
 }
 
@@ -451,6 +450,10 @@ a {
 
 .use-image {
   left: 0;
+}
+
+.container {
+  overflow: hidden;
 }
 
 }
