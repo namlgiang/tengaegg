@@ -6,6 +6,7 @@ body {
 
 .container {
   width: 800px;
+  max-width: 100%;
   margin: 0 auto;
   position: relative;
 }
@@ -222,10 +223,12 @@ img {
 .slide {
   float: left;
   margin-right: 50px;
+  max-width: 98%;
 }
 
 .slide .preview {
   width: 500px;
+  max-width: 98%;
   height: 300px;
   border: 2px solid #7fe0ff;
   background-size: contain;
@@ -270,6 +273,7 @@ img {
   float: left;
   color: #00b8e8;
   width: 400px;
+  max-width: 98%;
 }
 
 .product-description {
@@ -373,6 +377,7 @@ a {
   bottom: 40px;
   right: 40px;
   cursor: pointer;
+  z-index: 7;
 }
 
 .buy-now:after {
@@ -394,4 +399,58 @@ a {
   color: #fff;
   display: inline-block;
   padding: 5px 10px;
+}
+
+@media (max-aspect-ratio: 1/1) {
+
+.img-main {
+  height: 300px;
+}
+
+.decor-0 {
+  width: 200px;
+  height: 200px;
+}
+
+.intro-text {
+  right: 0;
+  bottom: 0;
+}
+
+.buy-now {
+  right: 100px;
+}
+
+.use-circle {
+  top: 370px;
+}
+
+.watch-video {
+  top: 350px;
+  left: 65%;
+}
+
+.material {
+  top: 600px;
+  right: 0;
+}
+
+.safe {
+  top: 850px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.how-to-use {
+  height: 1300px;
+}
+
+.inside>div {
+  margin: 0;
+}
+
+.use-image {
+  left: 0;
+}
+
 }
