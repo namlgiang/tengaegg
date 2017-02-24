@@ -139,7 +139,7 @@ img {
 
 .use-desc {
   position: absolute;
-  top: 80px;
+  top: 90px;
   width: 200px;
   font-size: 13px;
   left: 50%;
@@ -150,17 +150,18 @@ img {
   width: 100px;
   height: 100px;
   border-radius: 200px;
-  background: #ff4f4f;
   color: #fff;
   position: absolute;
-  top: 300px;
+  top: 50%;
   left: 50%;
+  transform: translateX(-50%) translateY(-50%);
   z-index: 2;
   cursor: pointer;
   transition: 200ms;
+  background: #ff4f4f url(pics/play.png) center no-repeat;
 }
 .watch-video:hover {
-  background: rgb(255, 79, 124);
+  background: rgb(255, 79, 124) url(pics/play.png) center no-repeat;
 }
 .watch-video .text {
   position: relative;
@@ -223,15 +224,18 @@ img {
 }
 
 .slide {
-  float: left;
-  margin-right: 50px;
+  width: 600px;
   max-width: 98%;
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
 }
 
 .slide .preview {
-  width: 500px;
+  width: 600px;
+  margin: 0 auto;
   max-width: 98%;
-  height: 300px;
+  height: 340px;
   border: 2px solid #7fe0ff;
   background-size: contain;
   background-repeat: no-repeat;
@@ -384,7 +388,7 @@ a {
 }
 
 .buy-now:after {
-  content: "Buy Now";
+  content: "Sản phẩm";
   margin-top: 40px;
   display: block;
   text-align: center;
@@ -402,6 +406,31 @@ a {
   color: #fff;
   display: inline-block;
   padding: 5px 10px;
+}
+
+.slide.menu .preview { background-image: url("pics/p0.png");}
+.slide.menu .slide-option-0 { background-image: url("pics/p0.png");}
+.slide.menu .slide-option-1 { background-image: url("pics/p1.png");}
+.slide.menu .slide-option-2 { background-image: url("pics/p2.png");}
+.slide.menu .slide-option-3 { background-image: url("pics/p3.png");}
+.slide.menu .slide-option-4 { background-image: url("pics/p4.png");}
+.slide.menu .slide-option-5 { background-image: url("pics/p5.png");}
+.slide.menu .slide-option-6 { background-image: url("pics/p6.png");}
+.slide.menu .slide-option-7 { background-image: url("pics/p7.png");}
+.slide.menu .slide-option-8 { background-image: url("pics/p8.png");}
+.slide.menu .slide-option-9 { background-image: url("pics/p9.png");}
+.slide.menu .slide-option-10 { background-image: url("pics/p10.png");}
+.slide.menu .slide-option-11 { background-image: url("pics/p11.png");}
+
+.order {
+  width: 600px;
+  max-width: 80%;
+  margin: 10px auto;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background: #0093cc;
+  color: #fff;
+  font-size: 14px;
 }
 
 @media (max-aspect-ratio: 1/1) {
@@ -422,11 +451,6 @@ a {
 
 .use-circle {
   top: 370px;
-}
-
-.watch-video {
-  top: 350px;
-  left: 65%;
 }
 
 .material {

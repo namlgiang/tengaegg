@@ -28,7 +28,7 @@ $(document).ready(function() {
 
   $(".buy-now").click(function() {
     $('html, body').animate({
-      scrollTop: $(".pack-1").offset().top - 150
+      scrollTop: $(".slide").offset().top - 150
     }, 500);
   });
 
