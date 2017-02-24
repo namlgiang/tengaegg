@@ -433,7 +433,33 @@ a {
   font-size: 14px;
 }
 
+.price {
+  background: #f00;
+  color: #fff;
+  width: 150px;
+  height: 150px;
+  border-radius: 400px;
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  z-index: 3;
+  transform: translateX(-50%);
+}
+.price .small {
+  margin: 30px 0 0 40px;
+  font-size: 30px;
+}
+.price .big {
+  margin: 0 0 0 25px;
+  font-size: 40px;
+}
+
 @media (max-aspect-ratio: 1/1) {
+
+.price {
+  top: 0;
+  left: 60%;
+}
 
 .img-main {
   height: 300px;
