@@ -469,6 +469,16 @@ a {
   font-size: 40px;
 }
 
+.button-inbox {
+  display: inline-block;
+  vertical-align: bottom;
+  font-size: 14px;
+  padding: 5px 10px;
+  background: #fff;
+  color: #0093cc;
+  border-radius: 20px;
+}
+
 @media (max-aspect-ratio: 1/1) {
 
 .price {
