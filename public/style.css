@@ -16,8 +16,15 @@ img {
   max-width: 100%;
 }
 
-.img-main {
+.intro {
+  background: url('pics/cover.jpg') center no-repeat;
+  background-size: cover;
   height: 500px;
+}
+
+.img-main {
+  height: 300px;
+  margin-top: 180px;
 }
 
 .intro-text {
@@ -30,8 +37,8 @@ img {
   padding: 40px;
   text-align: center;
   position: absolute;
-  right: 30%;
-  bottom: 20%;
+  left: 20%;
+  bottom: 30%;
 }
 
 .decor {
@@ -481,6 +488,7 @@ a {
 .intro-text {
   right: 0;
   bottom: 0;
+  left: auto;
 }
 
 .use-circle {
